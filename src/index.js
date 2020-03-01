@@ -1,3 +1,5 @@
 import './styles/main.css';
+import App from './controllers/app';
 
-window.console.log('Hi');
+const app = new App();
+app.run();
